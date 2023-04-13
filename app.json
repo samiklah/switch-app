@@ -1,0 +1,43 @@
+{
+  "name": "Switch",
+  "displayName": "Switch",
+  "expo": {
+    "jsEngine": "hermes",
+    "name": "Switch",
+    "slug": "switch",
+    "version": "1.6",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "switch",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFC83A"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ],
+    "ios": {
+      "jsEngine": "jsc",
+      "bundleIdentifier": "app.ondigitalocean.backend-6qjkq",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.publsher.switch",
+      "versionCode": 5,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#FFC83A"
+      }
+    }
+  }
+}
